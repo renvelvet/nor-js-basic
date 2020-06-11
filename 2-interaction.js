@@ -1,5 +1,5 @@
-const name = prompt("Siapa nama Anda?");
-const origin = prompt("Dari negara mana Anda?");
+const askName = prompt("Siapa nama Anda?");
+const askOrigin = prompt("Dari negara mana Anda?");
 
 const isDataValid = confirm("Apakah data sudah benar?");
 

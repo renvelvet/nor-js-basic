@@ -1,11 +1,19 @@
-let name = "Resha Puspita Dewi"
-let city = "Bandung"
-let birthdate = "7 Mei 1998"
-let age = 22
-let job = "Backend Developer"
+let oName = "Resha Puspita Dewi"
+let oCity = "Bandung"
+let oBirthdate = "7 Mei 1998"
+let oAge = 22
+let oJob = "Backend Developer"
 
-console.log("Name: " + name)
-console.log("Asal Daerah: " + city)
-console.log("Tanggal lahir: " + birthdate)
-console.log("Umur : " + age + " tahun")
-console.log("Posisi pekerjaan:" + job)
+let myProfile = {
+    oName,
+    oCity,
+    oBirthdate,
+    oAge,
+    oJob
+}
+
+console.log("Name: " + myProfile.oName)
+console.log("Asal Daerah: " + myProfile.oCity)
+console.log("Tanggal lahir: " + myProfile.oBirthdate)
+console.log("Umur : " + myProfile.oAge + " tahun")
+console.log("Posisi pekerjaan:" + myProfile.oJob)
