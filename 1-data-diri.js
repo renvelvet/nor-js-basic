@@ -1,0 +1,5 @@
+console.log("Nama: Resha Puspita Dewi")
+console.log("Asal Daerah: Bandung")
+console.log("Tanggal lahir: 7 Mei 1998")
+console.log("Umur: 22 tahun")
+console.log("Posisi pekerjaan: Backend Developer")
